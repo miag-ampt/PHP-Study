@@ -1,0 +1,22 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>あいさつ</title>
+</head>
+<body>
+	<?php $hour = date('H'); //現在の時刻を$hour変数に格納 ?>
+
+	<?php if (5 <= $hour $$ $hour < 10); //5時から10時までの間 ?>
+	<p>おはようございます</p>
+	
+	<?php elseif (10 <= $hour && $hour < 18); //10時から18時の間 ?>
+	<p>こんにちは。</p>
+
+	<?php else: //それ以外 ?>
+	<p>こんばんは</p>
+	<?php eldif; ?>
+
+	<p>現在<?php echo $hour; ?>時です。</p>
+</body>
+</html>
+
